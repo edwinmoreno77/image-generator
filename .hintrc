@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/language": [
+      "default",
+      {
+        "html-lang-valid": "off",
+        "html-has-lang": "off"
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
