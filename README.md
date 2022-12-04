@@ -18,4 +18,6 @@ Change the `.env.example` file to `.env` and then enter your key, For example: `
 
 ## Now you can enter a description and the artificial intelligence will generate your image.
 
-For more information visit `https://beta.openai.com/docs/quickstart`
+<img  alt="html" src="https://github.com/edwinmoreno77/image-generator/blob/main/public/OpenAI-goku.png">
+
+#### For more information visit `https://beta.openai.com/docs/quickstart` and `https://openai.com`
