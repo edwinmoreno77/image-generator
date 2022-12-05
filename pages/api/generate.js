@@ -18,7 +18,11 @@ export default async function (req, res) {
         res.status(200).json({ image_url: response.data.data[0].url });
 
     } catch (error) {
-        console.log(error)
-        res.status(404).json({ error: error })
+        if (error.response) {
+            console.log(error.response.status);
+            console.log(error.response.data);
+        } else {
+            console.log(error.message);
+        }
     }
 }
